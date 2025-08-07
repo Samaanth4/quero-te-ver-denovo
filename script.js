@@ -1,3 +1,5 @@
+console.log('JavaScript está rodando');
+
 document.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
         const wave = document.createElement('div');
@@ -23,4 +25,5 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }, 5000); // mensagem após 5 segundos
 });
+
 
